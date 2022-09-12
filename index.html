@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luciano J. Tacchini</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
@@ -13,56 +19,63 @@
       <div class="container">
         <p class="logo">Luciano J. Tacchini</p>
         <nav>
-          <a href="#info">Información personal</a>
-          <a href="#experiencia">Experiencia laboral</a><br>
-          <a href="#academica">Formación académica</a>
-          <a href="#contacto">Contacto</a>
+          <a href="#info" class="btn">Información personal</a
+          >&nbsp;&nbsp;|&nbsp;
+          <a href="#experiencia" class="btn">Experiencia laboral</a
+          >&nbsp;&nbsp;|&nbsp;
+          <a href="#academica" class="btn">Formación académica</a
+          >&nbsp;&nbsp;|&nbsp;
+          <a href="#contacto" class="btn">Contacto</a>
         </nav>
       </div>
+      <div id="hero"></div>
     </header>
-    <hr />
-    <section id="hero">
-      <h1>Curriculum Vitae<br />Luciano Javier Tacchini</h1>
-    </section>
-    <hr />
+
     <section id="info">
       <div class="container">
-        <h2>Informacion personal</h2>
-        <div class="img-container"></div>
-        <h3>Características personales</h3>
-        <ul>
-          <li>Fecha de nacimiento: 21/9/1995</li>
-          <li>Nacionalidad: Argentina</li>
-          <li>Edad: 26 años</li>
-          <li>Ciudad actual: Mar del Plata</li>
-          <li>Celular: 2236960717</li>
-          <li>E-Mail: tachomdq@gmail.com / tacho_95@hotmail.com</li>
-        </ul>
-        <h3>Habilidades</h3>
-        <ul>
-          <li>
-            Buena presencia, responsable, flexible y proactivo. Facilidad de
-            adaptación y capacidad de trabajar en equipo.
-          </li>
-          <li>Conocimientos avanzados de informatica.</li>
-          <li>Nivel de ingles intermedio.</li>
-        </ul>
-        <h3>Objetivos laborales</h3>
-        <ul>
-          <li>
-            Trabajar de manera eficaz a fin de satisfacer las necesidades del
-            cliente y lograr un buen rendimiento ante un supervisor. Aprender y
-            desarrollarme de manera personal y profesional en un ambiente
-            laboral cómodo. Estabilidad laboral. Capacitación continua.
-          </li>
-        </ul>
+      <h2>Informacion personal</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Características personales</h3>
+          <ul>
+            <li>Nombres: Luciano Javier</li><br>
+            <li>Apellido: Tacchini</li><br>
+            <li>Fecha de nacimiento: 21/9/1995</li><br>
+            <li>Nacionalidad: Argentina</li><br>
+            <li>Ciudad actual: Mar del Plata</li><br>
+            <li>Celular: 2236960717</li><br>
+            <li>E-Mail: tachomdq@gmail.com / tacho_95@hotmail.com</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Habilidades</h3>
+          <ul>
+            <li>
+              Buena presencia, responsable, flexible y proactivo. Facilidad de
+              adaptación y capacidad de trabajar en equipo.
+            </li><br>
+            <li>Conocimientos avanzados de informatica.</li><br>
+            <li>Nivel de ingles intermedio.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Objetivos laborales</h3>
+          <ul>
+            <li>
+              Trabajar de manera eficaz a fin de satisfacer las necesidades del
+              cliente y lograr un buen rendimiento ante un supervisor. Aprender
+              y desarrollarme de manera personal y profesional en un ambiente
+              laboral cómodo. Estabilidad laboral. Capacitación continua.
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
-    <hr />
+
     <section id="experiencia">
       <div class="container">
         <h2>Experiencia laboral</h2>
-        <div class="carta">
+        <div class="card">
           <h3>2013-2022</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit saepe
@@ -70,9 +83,9 @@
             perferendis voluptatum molestias suscipit quod, porro eligendi
             quibusdam laudantium impedit est ab?
           </p>
-          <button>+ Info</button>
+          <a href="" class="btn">Info</a>
         </div>
-        <div class="carta">
+        <div class="card">
           <h3>2018</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit saepe
@@ -80,9 +93,9 @@
             perferendis voluptatum molestias suscipit quod, porro eligendi
             quibusdam laudantium impedit est ab?
           </p>
-          <button>+ Info</button>
+          <a href="" class="btn">Info</a>
         </div>
-        <div class="carta">
+        <div class="card">
           <h3>2017</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit saepe
@@ -90,9 +103,9 @@
             perferendis voluptatum molestias suscipit quod, porro eligendi
             quibusdam laudantium impedit est ab?
           </p>
-          <button>+ Info</button>
+          <a href="" class="btn">Info</a>
         </div>
-        <div class="carta">
+        <div class="card">
           <h3>2016</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit saepe
@@ -100,11 +113,11 @@
             perferendis voluptatum molestias suscipit quod, porro eligendi
             quibusdam laudantium impedit est ab?
           </p>
-          <button>+ Info</button>
+          <a href="" class="btn">Info</a>
         </div>
       </div>
     </section>
-    <hr />
+
     <section id="academica">
       <div class="container">
         <h2>Formación académica</h2>
@@ -140,17 +153,21 @@
         </div>
       </div>
     </section>
+
     <hr />
+
     <section id="contacto">
       <h2>Contactame!</h2>
       <form action="https://wa.me/2236960717" target="_blank">
-          <button>Whatsapp</button>
+        <button>Whatsapp</button>
       </form>
       <form action="mailto:tachomdq@gmai.com" target="_blank">
         <button>Gmail</button>
-    </form>
+      </form>
     </section>
-    <hr>
+
+    <hr />
+
     <footer>
       <div class="container">
         <p>&copy;Luciano J. Tacchini 2022</p>
